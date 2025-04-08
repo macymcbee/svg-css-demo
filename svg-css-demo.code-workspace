@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../Downloads/Applications/SVG"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "svg-css-demo"
+	}
+}
