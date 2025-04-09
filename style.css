@@ -75,11 +75,18 @@ svg {
   animation-timing-function: linear;
 }
 
-#red-outer{
+.animate-loading{
   animation-name:red-outer;
+  animation-name:red-middle;
+  animation-name:red-inner;
+}
+
+#red-outer{
   animation-duration: 5s;
+}
 
-
+.anim-words{
+  animation-name:words;
 }
 
 @keyframes red-outer{
@@ -89,10 +96,8 @@ svg {
 
 
 #red-inner{
-    animation-name:red-inner;
     animation-duration: 5s;
     rotate: 90deg;
-  
   }
   
 @keyframes red-inner{
@@ -101,7 +106,6 @@ svg {
     }
   
 #red-middle{
-      animation-name:red-middle;
       animation-duration: 5s;
       rotate: 90deg;
     
